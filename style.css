@@ -1,0 +1,49 @@
+#monster {
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+    color: #6c14ed
+}
+
+.menubar {
+    font-family: 'Righteous', cursive;
+}
+
+.search-box {
+    width: auto;
+    margin-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#meals {
+    background-color: white;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 15px;
+}
+
+.meal {
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    background-color: rgb(238, 238, 238);
+}
+
+.meal img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.allItem {
+    margin-left: 10%;
+}
+
+.meal ul, h4 {
+    padding-left: 8%;
+    text-align: left;
+    font-size: 1rem;
+}
+.meal li{
+    font-size: small;
+}
